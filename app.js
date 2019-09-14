@@ -19,4 +19,13 @@ const marvelHeroes = heroes.filter(hero => {
 //   { name: "Thor", franchise: "Marvel" }
 // ];
 
-// =============== Until Next Time ===============
+// =============== map() Array Method in JavaScript ===============
+
+const drinks = ["coffee soda", "tea", "whiskey"];
+
+const coldDrinks = drinks.map(function(drink) {
+  return "iced " + drink;
+});
+
+// console.log(coldDrinks);
+// [‘iced coffee soda’, ‘iced coffee’, ‘iced whiskey’]

@@ -43,3 +43,23 @@ console.log("MarvelHeroes: ", marvelHeroes);
 ```
 
 ---
+
+## 2. map() Array Method:
+
+- Syntax
+
+```
+const newArray = myArray.map(function);
+```
+
+- Example:
+
+```
+const drinks = [“coffee soda”, “tea”, “whiskey”];
+
+const coldDrinks = drinks.map(function(drink) {
+	return ‘iced ’ + drink;
+});
+
+// [‘iced coffee soda’, ‘iced coffee’, ‘iced whiskey’]
+```
